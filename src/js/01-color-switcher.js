@@ -24,7 +24,7 @@ const refs = {
     styleWindow: document.querySelector('body'),
 };
 
-const TIMER = 1000;
+const TIMER = 700;
 
 refs.startBtn.addEventListener('click', () => {
     changeColor.start();
